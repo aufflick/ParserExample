@@ -130,6 +130,10 @@ static inline NSManagedObject * TagWithName( NSString * name )
     if ( obj == nil )
     {
         NSString * entityName = [[attrs objectForKey: @"type"] capitalizedString];
+        
+        if ([entityName isEqualToString:@"Conversation"])
+            entityName = @"Post";
+        
         obj = [NSEntityDescription insertNewObjectForEntityForName: entityName
                                             inManagedObjectContext: self.managedObjectContext];
     }
