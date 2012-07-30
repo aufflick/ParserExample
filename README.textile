@@ -1,0 +1,17 @@
+h1. ParserExample
+
+This is a project showing you how to use AQXMLParser and HTTPMessage together with AQGzip* from aqtoolkit.
+
+h1. Building
+
+Before building this project, you will need to retrieve the aqtoolkit submodule:
+
+```
+cd ParserExample
+git submodule update --init
+```
+
+h2. See Also
+
+* http://quatermain.tumblr.com/parser-example
+* https://github.com/AlanQuatermain/aqtoolkit
