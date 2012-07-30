@@ -17,22 +17,22 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28D3F202112F7DC200FD0661 /* ParserExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* ParserExample.xcdatamodeld */; };
-		386381BC12B7DF36000EE66E /* AQXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 386381B512B7DF36000EE66E /* AQXMLParser.m */; };
-		386381BD12B7DF36000EE66E /* AQXMLParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 386381B712B7DF36000EE66E /* AQXMLParserDelegate.m */; };
-		386381BE12B7DF36000EE66E /* AQXMLParserInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 386381B912B7DF36000EE66E /* AQXMLParserInternal.m */; };
-		386381BF12B7DF36000EE66E /* AQXMLParserWithTimeout.m in Sources */ = {isa = PBXBuildFile; fileRef = 386381BB12B7DF36000EE66E /* AQXMLParserWithTimeout.m */; };
-		386381C812B7DF41000EE66E /* HTTPAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 386381C212B7DF41000EE66E /* HTTPAuthentication.m */; };
-		386381C912B7DF41000EE66E /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 386381C412B7DF41000EE66E /* HTTPMessage.m */; };
-		386381CA12B7DF41000EE66E /* NSStream+HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 386381C712B7DF41000EE66E /* NSStream+HTTPMessage.m */; };
-		386381D212B7DF50000EE66E /* _AQGzipStreamInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 386381CD12B7DF50000EE66E /* _AQGzipStreamInternal.m */; };
-		386381D312B7DF50000EE66E /* AQGzipFileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 386381CE12B7DF50000EE66E /* AQGzipFileStream.m */; };
-		386381D412B7DF50000EE66E /* AQGzipInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 386381CF12B7DF50000EE66E /* AQGzipInputStream.m */; };
-		386381D512B7DF50000EE66E /* AQGzipOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 386381D012B7DF50000EE66E /* AQGzipOutputStream.m */; };
 		386381E612B7E367000EE66E /* TumblrParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 386381E512B7E367000EE66E /* TumblrParserDelegate.m */; };
 		386381FD12B7EEB5000EE66E /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 386381FC12B7EEB5000EE66E /* libxml2.dylib */; };
-		3863821212B7EF40000EE66E /* NSError+CFStreamError.m in Sources */ = {isa = PBXBuildFile; fileRef = 3863821112B7EF40000EE66E /* NSError+CFStreamError.m */; };
 		3863821D12B7EF7F000EE66E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3863821C12B7EF7F000EE66E /* CFNetwork.framework */; };
 		3863823012B7EF8F000EE66E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3863822F12B7EF8F000EE66E /* libz.dylib */; };
+		649E335615C751A400C9C3C6 /* NSError+CFStreamError.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E335515C751A400C9C3C6 /* NSError+CFStreamError.m */; };
+		649E336215C751DF00C9C3C6 /* AQXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E335B15C751DF00C9C3C6 /* AQXMLParser.m */; };
+		649E336315C751DF00C9C3C6 /* AQXMLParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E335D15C751DF00C9C3C6 /* AQXMLParserDelegate.m */; };
+		649E336415C751DF00C9C3C6 /* AQXMLParserInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E335F15C751DF00C9C3C6 /* AQXMLParserInternal.m */; };
+		649E336515C751DF00C9C3C6 /* AQXMLParserWithTimeout.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E336115C751DF00C9C3C6 /* AQXMLParserWithTimeout.m */; };
+		649E336E15C751F300C9C3C6 /* HTTPAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E336815C751F300C9C3C6 /* HTTPAuthentication.m */; };
+		649E336F15C751F300C9C3C6 /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E336A15C751F300C9C3C6 /* HTTPMessage.m */; };
+		649E337015C751F300C9C3C6 /* NSStream+HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E336D15C751F300C9C3C6 /* NSStream+HTTPMessage.m */; };
+		649E337815C7520400C9C3C6 /* _AQGzipStreamInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E337315C7520400C9C3C6 /* _AQGzipStreamInternal.m */; };
+		649E337915C7520400C9C3C6 /* AQGzipFileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E337415C7520400C9C3C6 /* AQGzipFileStream.m */; };
+		649E337A15C7520400C9C3C6 /* AQGzipInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E337515C7520400C9C3C6 /* AQGzipInputStream.m */; };
+		649E337B15C7520400C9C3C6 /* AQGzipOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E337615C7520400C9C3C6 /* AQGzipOutputStream.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,35 +50,36 @@
 		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		386381B412B7DF36000EE66E /* AQXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQXMLParser.h; sourceTree = "<group>"; };
-		386381B512B7DF36000EE66E /* AQXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQXMLParser.m; sourceTree = "<group>"; };
-		386381B612B7DF36000EE66E /* AQXMLParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQXMLParserDelegate.h; sourceTree = "<group>"; };
-		386381B712B7DF36000EE66E /* AQXMLParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQXMLParserDelegate.m; sourceTree = "<group>"; };
-		386381B812B7DF36000EE66E /* AQXMLParserInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQXMLParserInternal.h; sourceTree = "<group>"; };
-		386381B912B7DF36000EE66E /* AQXMLParserInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQXMLParserInternal.m; sourceTree = "<group>"; };
-		386381BA12B7DF36000EE66E /* AQXMLParserWithTimeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQXMLParserWithTimeout.h; sourceTree = "<group>"; };
-		386381BB12B7DF36000EE66E /* AQXMLParserWithTimeout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQXMLParserWithTimeout.m; sourceTree = "<group>"; };
-		386381C112B7DF41000EE66E /* HTTPAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAuthentication.h; sourceTree = "<group>"; };
-		386381C212B7DF41000EE66E /* HTTPAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthentication.m; sourceTree = "<group>"; };
-		386381C312B7DF41000EE66E /* HTTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPMessage.h; sourceTree = "<group>"; };
-		386381C412B7DF41000EE66E /* HTTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPMessage.m; sourceTree = "<group>"; };
-		386381C512B7DF41000EE66E /* HTTPMessageInternalAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPMessageInternalAccess.h; sourceTree = "<group>"; };
-		386381C612B7DF41000EE66E /* NSStream+HTTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+HTTPMessage.h"; sourceTree = "<group>"; };
-		386381C712B7DF41000EE66E /* NSStream+HTTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+HTTPMessage.m"; sourceTree = "<group>"; };
-		386381CC12B7DF50000EE66E /* _AQGzipStreamInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _AQGzipStreamInternal.h; sourceTree = "<group>"; };
-		386381CD12B7DF50000EE66E /* _AQGzipStreamInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _AQGzipStreamInternal.m; sourceTree = "<group>"; };
-		386381CE12B7DF50000EE66E /* AQGzipFileStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQGzipFileStream.m; sourceTree = "<group>"; };
-		386381CF12B7DF50000EE66E /* AQGzipInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQGzipInputStream.m; sourceTree = "<group>"; };
-		386381D012B7DF50000EE66E /* AQGzipOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQGzipOutputStream.m; sourceTree = "<group>"; };
-		386381D112B7DF50000EE66E /* AQGzipStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQGzipStream.h; sourceTree = "<group>"; };
 		386381E412B7E367000EE66E /* TumblrParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumblrParserDelegate.h; sourceTree = "<group>"; };
 		386381E512B7E367000EE66E /* TumblrParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumblrParserDelegate.m; sourceTree = "<group>"; };
 		386381FC12B7EEB5000EE66E /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		3863820212B7EEE4000EE66E /* iPhoneNonatomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneNonatomic.h; sourceTree = "<group>"; };
-		3863821012B7EF40000EE66E /* NSError+CFStreamError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+CFStreamError.h"; sourceTree = "<group>"; };
-		3863821112B7EF40000EE66E /* NSError+CFStreamError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+CFStreamError.m"; sourceTree = "<group>"; };
 		3863821C12B7EF7F000EE66E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		3863822F12B7EF8F000EE66E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		649E335315C7518B00C9C3C6 /* iPhoneNonatomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhoneNonatomic.h; path = aqtoolkit/iPhoneNonatomic.h; sourceTree = "<group>"; };
+		649E335415C751A400C9C3C6 /* NSError+CFStreamError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+CFStreamError.h"; path = "aqtoolkit/Extensions/NSError+CFStreamError.h"; sourceTree = "<group>"; };
+		649E335515C751A400C9C3C6 /* NSError+CFStreamError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+CFStreamError.m"; path = "aqtoolkit/Extensions/NSError+CFStreamError.m"; sourceTree = "<group>"; };
+		649E335A15C751DF00C9C3C6 /* AQXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQXMLParser.h; sourceTree = "<group>"; };
+		649E335B15C751DF00C9C3C6 /* AQXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQXMLParser.m; sourceTree = "<group>"; };
+		649E335C15C751DF00C9C3C6 /* AQXMLParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQXMLParserDelegate.h; sourceTree = "<group>"; };
+		649E335D15C751DF00C9C3C6 /* AQXMLParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQXMLParserDelegate.m; sourceTree = "<group>"; };
+		649E335E15C751DF00C9C3C6 /* AQXMLParserInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQXMLParserInternal.h; sourceTree = "<group>"; };
+		649E335F15C751DF00C9C3C6 /* AQXMLParserInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQXMLParserInternal.m; sourceTree = "<group>"; };
+		649E336015C751DF00C9C3C6 /* AQXMLParserWithTimeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQXMLParserWithTimeout.h; sourceTree = "<group>"; };
+		649E336115C751DF00C9C3C6 /* AQXMLParserWithTimeout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQXMLParserWithTimeout.m; sourceTree = "<group>"; };
+		649E336715C751F300C9C3C6 /* HTTPAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAuthentication.h; sourceTree = "<group>"; };
+		649E336815C751F300C9C3C6 /* HTTPAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthentication.m; sourceTree = "<group>"; };
+		649E336915C751F300C9C3C6 /* HTTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPMessage.h; sourceTree = "<group>"; };
+		649E336A15C751F300C9C3C6 /* HTTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPMessage.m; sourceTree = "<group>"; };
+		649E336B15C751F300C9C3C6 /* HTTPMessageInternalAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPMessageInternalAccess.h; sourceTree = "<group>"; };
+		649E336C15C751F300C9C3C6 /* NSStream+HTTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+HTTPMessage.h"; sourceTree = "<group>"; };
+		649E336D15C751F300C9C3C6 /* NSStream+HTTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+HTTPMessage.m"; sourceTree = "<group>"; };
+		649E337215C7520400C9C3C6 /* _AQGzipStreamInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _AQGzipStreamInternal.h; sourceTree = "<group>"; };
+		649E337315C7520400C9C3C6 /* _AQGzipStreamInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _AQGzipStreamInternal.m; sourceTree = "<group>"; };
+		649E337415C7520400C9C3C6 /* AQGzipFileStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQGzipFileStream.m; sourceTree = "<group>"; };
+		649E337515C7520400C9C3C6 /* AQGzipInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQGzipInputStream.m; sourceTree = "<group>"; };
+		649E337615C7520400C9C3C6 /* AQGzipOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQGzipOutputStream.m; sourceTree = "<group>"; };
+		649E337715C7520400C9C3C6 /* AQGzipStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQGzipStream.h; sourceTree = "<group>"; };
+		649E337C15C7521900C9C3C6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = aqtoolkit/LICENSE; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ParserExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ParserExample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,12 +110,6 @@
 				1D3623250D0F684500981E51 /* ParserExampleAppDelegate.m */,
 				386381E412B7E367000EE66E /* TumblrParserDelegate.h */,
 				386381E512B7E367000EE66E /* TumblrParserDelegate.m */,
-				3863820212B7EEE4000EE66E /* iPhoneNonatomic.h */,
-				3863821012B7EF40000EE66E /* NSError+CFStreamError.h */,
-				3863821112B7EF40000EE66E /* NSError+CFStreamError.m */,
-				386381B312B7DF36000EE66E /* StreamingXMLParser */,
-				386381C012B7DF41000EE66E /* HTTPMessage */,
-				386381CB12B7DF50000EE66E /* Compression */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -130,6 +125,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				649E335115C7515C00C9C3C6 /* aqtoolkit */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -173,46 +169,71 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		386381B312B7DF36000EE66E /* StreamingXMLParser */ = {
+		649E335115C7515C00C9C3C6 /* aqtoolkit */ = {
 			isa = PBXGroup;
 			children = (
-				386381B412B7DF36000EE66E /* AQXMLParser.h */,
-				386381B512B7DF36000EE66E /* AQXMLParser.m */,
-				386381B612B7DF36000EE66E /* AQXMLParserDelegate.h */,
-				386381B712B7DF36000EE66E /* AQXMLParserDelegate.m */,
-				386381B812B7DF36000EE66E /* AQXMLParserInternal.h */,
-				386381B912B7DF36000EE66E /* AQXMLParserInternal.m */,
-				386381BA12B7DF36000EE66E /* AQXMLParserWithTimeout.h */,
-				386381BB12B7DF36000EE66E /* AQXMLParserWithTimeout.m */,
+				649E337C15C7521900C9C3C6 /* LICENSE */,
+				649E337115C7520400C9C3C6 /* Compression */,
+				649E336615C751F300C9C3C6 /* HTTPMessage */,
+				649E335915C751DF00C9C3C6 /* StreamingXMLParser */,
+				649E335715C751B000C9C3C6 /* Extensions */,
+				649E335315C7518B00C9C3C6 /* iPhoneNonatomic.h */,
 			);
-			path = StreamingXMLParser;
+			name = aqtoolkit;
 			sourceTree = "<group>";
 		};
-		386381C012B7DF41000EE66E /* HTTPMessage */ = {
+		649E335715C751B000C9C3C6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				386381C112B7DF41000EE66E /* HTTPAuthentication.h */,
-				386381C212B7DF41000EE66E /* HTTPAuthentication.m */,
-				386381C312B7DF41000EE66E /* HTTPMessage.h */,
-				386381C412B7DF41000EE66E /* HTTPMessage.m */,
-				386381C512B7DF41000EE66E /* HTTPMessageInternalAccess.h */,
-				386381C612B7DF41000EE66E /* NSStream+HTTPMessage.h */,
-				386381C712B7DF41000EE66E /* NSStream+HTTPMessage.m */,
+				649E335415C751A400C9C3C6 /* NSError+CFStreamError.h */,
+				649E335515C751A400C9C3C6 /* NSError+CFStreamError.m */,
 			);
-			path = HTTPMessage;
+			name = Extensions;
 			sourceTree = "<group>";
 		};
-		386381CB12B7DF50000EE66E /* Compression */ = {
+		649E335915C751DF00C9C3C6 /* StreamingXMLParser */ = {
 			isa = PBXGroup;
 			children = (
-				386381CC12B7DF50000EE66E /* _AQGzipStreamInternal.h */,
-				386381CD12B7DF50000EE66E /* _AQGzipStreamInternal.m */,
-				386381CE12B7DF50000EE66E /* AQGzipFileStream.m */,
-				386381CF12B7DF50000EE66E /* AQGzipInputStream.m */,
-				386381D012B7DF50000EE66E /* AQGzipOutputStream.m */,
-				386381D112B7DF50000EE66E /* AQGzipStream.h */,
+				649E335A15C751DF00C9C3C6 /* AQXMLParser.h */,
+				649E335B15C751DF00C9C3C6 /* AQXMLParser.m */,
+				649E335C15C751DF00C9C3C6 /* AQXMLParserDelegate.h */,
+				649E335D15C751DF00C9C3C6 /* AQXMLParserDelegate.m */,
+				649E335E15C751DF00C9C3C6 /* AQXMLParserInternal.h */,
+				649E335F15C751DF00C9C3C6 /* AQXMLParserInternal.m */,
+				649E336015C751DF00C9C3C6 /* AQXMLParserWithTimeout.h */,
+				649E336115C751DF00C9C3C6 /* AQXMLParserWithTimeout.m */,
 			);
-			path = Compression;
+			name = StreamingXMLParser;
+			path = aqtoolkit/StreamingXMLParser;
+			sourceTree = "<group>";
+		};
+		649E336615C751F300C9C3C6 /* HTTPMessage */ = {
+			isa = PBXGroup;
+			children = (
+				649E336715C751F300C9C3C6 /* HTTPAuthentication.h */,
+				649E336815C751F300C9C3C6 /* HTTPAuthentication.m */,
+				649E336915C751F300C9C3C6 /* HTTPMessage.h */,
+				649E336A15C751F300C9C3C6 /* HTTPMessage.m */,
+				649E336B15C751F300C9C3C6 /* HTTPMessageInternalAccess.h */,
+				649E336C15C751F300C9C3C6 /* NSStream+HTTPMessage.h */,
+				649E336D15C751F300C9C3C6 /* NSStream+HTTPMessage.m */,
+			);
+			name = HTTPMessage;
+			path = aqtoolkit/HTTPMessage;
+			sourceTree = "<group>";
+		};
+		649E337115C7520400C9C3C6 /* Compression */ = {
+			isa = PBXGroup;
+			children = (
+				649E337215C7520400C9C3C6 /* _AQGzipStreamInternal.h */,
+				649E337315C7520400C9C3C6 /* _AQGzipStreamInternal.m */,
+				649E337415C7520400C9C3C6 /* AQGzipFileStream.m */,
+				649E337515C7520400C9C3C6 /* AQGzipInputStream.m */,
+				649E337615C7520400C9C3C6 /* AQGzipOutputStream.m */,
+				649E337715C7520400C9C3C6 /* AQGzipStream.h */,
+			);
+			name = Compression;
+			path = aqtoolkit/Compression;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,19 +302,19 @@
 				1D3623260D0F684500981E51 /* ParserExampleAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				28D3F202112F7DC200FD0661 /* ParserExample.xcdatamodeld in Sources */,
-				386381BC12B7DF36000EE66E /* AQXMLParser.m in Sources */,
-				386381BD12B7DF36000EE66E /* AQXMLParserDelegate.m in Sources */,
-				386381BE12B7DF36000EE66E /* AQXMLParserInternal.m in Sources */,
-				386381BF12B7DF36000EE66E /* AQXMLParserWithTimeout.m in Sources */,
-				386381C812B7DF41000EE66E /* HTTPAuthentication.m in Sources */,
-				386381C912B7DF41000EE66E /* HTTPMessage.m in Sources */,
-				386381CA12B7DF41000EE66E /* NSStream+HTTPMessage.m in Sources */,
-				386381D212B7DF50000EE66E /* _AQGzipStreamInternal.m in Sources */,
-				386381D312B7DF50000EE66E /* AQGzipFileStream.m in Sources */,
-				386381D412B7DF50000EE66E /* AQGzipInputStream.m in Sources */,
-				386381D512B7DF50000EE66E /* AQGzipOutputStream.m in Sources */,
 				386381E612B7E367000EE66E /* TumblrParserDelegate.m in Sources */,
-				3863821212B7EF40000EE66E /* NSError+CFStreamError.m in Sources */,
+				649E335615C751A400C9C3C6 /* NSError+CFStreamError.m in Sources */,
+				649E336215C751DF00C9C3C6 /* AQXMLParser.m in Sources */,
+				649E336315C751DF00C9C3C6 /* AQXMLParserDelegate.m in Sources */,
+				649E336415C751DF00C9C3C6 /* AQXMLParserInternal.m in Sources */,
+				649E336515C751DF00C9C3C6 /* AQXMLParserWithTimeout.m in Sources */,
+				649E336E15C751F300C9C3C6 /* HTTPAuthentication.m in Sources */,
+				649E336F15C751F300C9C3C6 /* HTTPMessage.m in Sources */,
+				649E337015C751F300C9C3C6 /* NSStream+HTTPMessage.m in Sources */,
+				649E337815C7520400C9C3C6 /* _AQGzipStreamInternal.m in Sources */,
+				649E337915C7520400C9C3C6 /* AQGzipFileStream.m in Sources */,
+				649E337A15C7520400C9C3C6 /* AQGzipInputStream.m in Sources */,
+				649E337B15C7520400C9C3C6 /* AQGzipOutputStream.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

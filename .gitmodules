@@ -1,0 +1,3 @@
+[submodule "aqtoolkit"]
+	path = aqtoolkit
+	url = https://github.com/AlanQuatermain/aqtoolkit.git
