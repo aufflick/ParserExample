@@ -33,6 +33,7 @@
 		649E337915C7520400C9C3C6 /* AQGzipFileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E337415C7520400C9C3C6 /* AQGzipFileStream.m */; };
 		649E337A15C7520400C9C3C6 /* AQGzipInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E337515C7520400C9C3C6 /* AQGzipInputStream.m */; };
 		649E337B15C7520400C9C3C6 /* AQGzipOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E337615C7520400C9C3C6 /* AQGzipOutputStream.m */; };
+		649E338615C756E600C9C3C6 /* README.textile in Resources */ = {isa = PBXBuildFile; fileRef = 649E338515C756E600C9C3C6 /* README.textile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		649E337615C7520400C9C3C6 /* AQGzipOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQGzipOutputStream.m; sourceTree = "<group>"; };
 		649E337715C7520400C9C3C6 /* AQGzipStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQGzipStream.h; sourceTree = "<group>"; };
 		649E337C15C7521900C9C3C6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = aqtoolkit/LICENSE; sourceTree = "<group>"; };
+		649E338515C756E600C9C3C6 /* README.textile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.textile; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ParserExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ParserExample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				649E338515C756E600C9C3C6 /* README.textile */,
 				649E335115C7515C00C9C3C6 /* aqtoolkit */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -291,6 +294,7 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				649E338615C756E600C9C3C6 /* README.textile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
