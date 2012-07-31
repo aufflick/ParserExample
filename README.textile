@@ -6,10 +6,8 @@ h1. Building
 
 Before building this project, you will need to retrieve the aqtoolkit submodule:
 
-```
-cd ParserExample
+bc. cd ParserExample
 git submodule update --init
-```
 
 h2. See Also
 
